@@ -28,6 +28,11 @@
     padding: 1em;
 }
 
+.descricao {
+    padding: 1.5em 1em 0 0;
+
+}
+
 .descricao__titulo-livro {
     color: var(--azul);
     font-size: 18px;
@@ -42,6 +47,11 @@
 
 .descricao__texto {
     font-size: 14px;
+}
+
+.descricao__imagem {
+    border: 2px solid var(--laranja);
+    border-radius: 10px;
 }
 
 .card__descricao {

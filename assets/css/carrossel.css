@@ -110,6 +110,51 @@
         width: 57%;
         margin: 2em auto;
     }
+
+    .descricao {
+        margin: 1.5em 1.5em 2.5em 2.5em;
+    }
+
+    .descricao__imagem, .botoes__ancora {
+        margin-right: 2.5em;
+    }
+
+    .card__botoes {
+        margin-left: 2.5em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vh 3em 20vh;
+    }
+
+    .swiper-pagination {
+        margin: 1.5em 0;
+    }
+
+    .swiper {
+        width: 50%;
+    }
+
+    .card {
+        width: 50%;
+        margin: 4em 2em;
+        
+    }
+
+    .descricao {
+        margin-right: 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 32px;
+    }
+
+    .descricao__texto {
+        font-size: 18px;
+    }
 }
 
 

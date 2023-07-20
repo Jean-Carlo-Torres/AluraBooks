@@ -26,8 +26,13 @@
     font-weight: 700;
 }
 
+.topico__link:hover {
+    background-color: var(--laranja-escuro);
+    color: var(--azul);
+}
+
 .topico__item {
-    margin: 2em 0.5em;
+    margin: 1.5em 0.5em;
 }
 
 
@@ -38,5 +43,15 @@
     
     .topico__link {
         font-size: 24px;
+    }
+
+    .topico__item {
+        margin: 2.5em 0.5em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .topico {
+        padding: 3em 30vh;
     }
 }

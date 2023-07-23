@@ -21,7 +21,7 @@
 }
 
 .container__imagem {
-    padding: 1em;
+    padding: 0.5em;
 }
 
 .lista-menu {
@@ -88,6 +88,20 @@
     text-decoration: none;
 }
 
+.btn-cadastro {
+    background-color: var(--laranja);
+    padding: 0.5em;
+    border-radius: 5px;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-cadastro:hover {
+    background-color: var(--laranja-escuro);
+    color: var(--azul);
+}
+
 
 @media screen and (min-width: 1024px) {
 
@@ -146,6 +160,15 @@
 
     .opcoes__item {
         padding: 2em 1em;
+    }
+
+    .btn-cadastro {
+        background-color: var(--laranja);
+        padding: 1em 2.2em;
+        border-radius: 10px;
+        color: var(--branco);
+        font-weight: 700;
+        text-decoration: none;
     }
    
 }

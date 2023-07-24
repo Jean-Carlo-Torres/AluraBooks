@@ -24,6 +24,10 @@
     padding: 0.5em;
 }
 
+.link-logo{
+    text-decoration:none ;
+}
+
 .lista-menu {
     display: none;
     position: absolute;
